@@ -98,6 +98,13 @@ nav ul li a{
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display:flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.headlines h2 {
+  font-size: 30px;
   text-align: center;
 }
 
@@ -112,14 +119,19 @@ nav ul li a{
   background-image: url(../images/img-story-main.png);
   font-size: 40px;
   height: 300px;
+  display:flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.main-story .headlines h2{
+  font-size: 40px;
   text-align: left;
 }
 
 .story-1 .headlines {
   background-image: url(../images/img-story-1.png);
   height: 300px;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .story-2 .headlines {
@@ -131,8 +143,6 @@ nav ul li a{
   background-image: url(../images/img-story-3.png);
   height: 300px;
 }
-
-
 
 .news-bites h2 {
   font-size: 16px;
